@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStorePlayConsole", "EventStorePlayConsole\EventStorePlayConsole.csproj", "{4D66C889-6186-4B26-BD83-34A898489476}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{46C49AAF-A307-46D5-9ABB-B4D6B2480EFC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +18,8 @@ Global
 		{4D66C889-6186-4B26-BD83-34A898489476}.Debug|x86.Build.0 = Debug|x86
 		{4D66C889-6186-4B26-BD83-34A898489476}.Release|x86.ActiveCfg = Release|x86
 		{4D66C889-6186-4B26-BD83-34A898489476}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = EventStorePlayConsole\EventStorePlayConsole.csproj
