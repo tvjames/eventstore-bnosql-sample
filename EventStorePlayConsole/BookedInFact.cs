@@ -8,8 +8,15 @@ namespace EventStorePlayConsole
     {
         public BookedInFact(string atValue, string someValue)
         {
+            this.OccurredAt = DateTime.UtcNow;
             this.BookedInAtValue = atValue;
             this.PreviousBookingValue = someValue;
+        }
+
+        public DateTime OccurredAt
+        {
+            get;
+            private set;
         }
 
         public string BookedInAtValue
